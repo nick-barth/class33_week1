@@ -1,8 +1,8 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import { render, screen } from "@testing-library/react";
+import App from "./App";
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});
+test("checkout button should navigate to checkout", () => {});
+
+test("checkout button should not be visible when no items are in shopping cart", () => {});
+
+test("checkout button should be disabled when you are on the wrong page", () => {});
